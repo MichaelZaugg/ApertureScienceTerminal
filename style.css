@@ -1,0 +1,45 @@
+body {
+    background-color: #000000;
+}
+
+.swf-object {
+    position: relative;
+    background-color: #000000;
+    /*padding-top: calc(600 / 800 * 100%);*/
+    /* SWF size: 800x600 (16000x12000 twips), Aspect Ratio: 4:3 */
+    /* 1 twip = 1/20 pt = 1/15 px */
+    /* 1pt = 4/3 px */
+    width: 1200px;
+    height: 900px;
+
+    margin: auto;
+
+    /* No overflow. */
+    overflow: hidden;
+}
+
+.swf-object span {
+    position: absolute;
+    white-space: pre;
+}
+
+#ApertureScience .cursorImage {
+    width: 16px;
+    height: 16px;
+    background-color: #33FF00;
+}
+
+#ApertureScience .letter {
+    font-family: 'Courier New';
+    font-size: 16px;
+    text-indent: 4px;
+    width: 100%;
+    color: #66FF00;
+    word-spacing: 1.25px;
+}
+
+#ApertureScience .cake1 {
+    width: 400px;
+    height: 440px;
+    background-image: url("ApertureScience17.swf/images/7.jpg");
+}
