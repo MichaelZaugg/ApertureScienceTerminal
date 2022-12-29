@@ -371,11 +371,12 @@ function bosskey()
 }
 function logout()
 {
-    //getUrl("javascript:if (window.home) {window.home()} else {window.location.replace(\"http://www.steampowered.com/\")}", "");
+    getUrl("javascript:if (window.home) {window.home()} else {window.location.replace(\"http://www.steampowered.com/\")}", "");
 }
 function playPortal()
 {
-    //getUrl("http://www.youtube.com/watch?v=0h50K2NVJHM", "");
+    //getUrl("http://www.youtube.com/watch?v=0h50K2NVJHM", ""); //Original
+    getUrl("https://youtu.be/KLfJQkIJy58", ""); //Updated Link to Video
 }
 function initCake(target)
 {
