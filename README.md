@@ -1,4 +1,4 @@
-# MainWebVersion2
+# Aperture Science Terminal 
 
 This is the terminal that existed on aperturescience.com before it was moved. I got everything working and decided to upload it to share with everyone.
 I also made a working webpage to:
