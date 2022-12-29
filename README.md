@@ -1,6 +1,6 @@
 # Aperture Science Terminal 
 
-This is the terminal that existed on aperturescience.com before it was removed. I got everything working and decided to upload it to share with everyone.
+This is the terminal that existed on https://www.aperturescience.com before it was removed. I got everything working and decided to upload it to share with everyone.
 I also made a working webpage to:
 
 https://aperturescience.thinggoeserror.net
