@@ -378,6 +378,10 @@ function playPortal()
     //getUrl("http://www.youtube.com/watch?v=0h50K2NVJHM", ""); //Original
     getUrl("https://youtu.be/KLfJQkIJy58", ""); //Updated Link to Video
 }
+function home()
+{
+    getUrl("https://thinggoeserror.net", ""); //Links to my main website
+}
 function initCake(target)
 {
     target.cakeInterval = function()
@@ -942,6 +946,14 @@ function processInput1()
             snd.attachSound("goodbye");
             snd.setVolume(20);
             snd.onSoundComplete = logout;
+            qon = -1;
+            entryMode = 0;
+            snd.start();
+            break;
+        case "HOME":
+            snd.attachSound("goodbye");
+            snd.setVolume(20);
+            snd.onSoundComplete = home;
             qon = -1;
             entryMode = 0;
             snd.start();
