@@ -380,7 +380,7 @@ function playPortal()
 }
 function home()
 {
-    getUrl("https://thinggoeserror.net", ""); //Links to my main website
+    getUrl("https://www.thinggoeserror.net", ""); //Links to my main website
 }
 function initCake(target)
 {
