@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+html { overflow: hidden; }
+html, body, .allcontent {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.allcontent {
+	display: table;
+	width: 100%;
+}
+.center {
+	display: table-cell;
+	vertical-align: middle;
+}
+#clock {
+	background-color: #000000;
+	margin: auto;
+	width: 240px;
+	height: 77px;
+	text-align: center;
+}
+#clock img {
+	vertical-align: middle;
+}
+#message {
+	width: 440px;
+	font-size: 12px;
+	text-align: left;
+	margin: 24px auto;
+	font-family: consolas, courier new, fixed-width;
+}
+</style>
+</head>
+<body>
+	<div class="allcontent">
+		<div class="center">
+							<div id="message">
+				</div>
+					</div>
+	</div>
+<script>
+
+var g_frame = 0;
+function Frame() 
+{
+	var el=document.getElementById('message');
+	switch( g_frame++ )
+	{
+	case 1:
+		Update( el, '09:00 � Hello again.<br>');
+		break;
+	case 2:
+		Update( el, '09:00 � I�ve been waiting a long time for this.<br>' ); 
+		break;
+	case 3:
+		Update( el, '09:00 � I know it�s arriving later than expected.<br>' ); 
+		break;
+	case 4:
+		Update( el, '09:00 � But I have a message for you:<br>' ); 
+		break;
+	case 5:
+		Update( el, '09:00 � April Fools.<br>' ); 
+		break;
+	case 6:
+		Update( el, '09:01 � I�m joking. <br>' ); 
+		break;
+	case 7:
+		Update( el, '09:01 � Seriously, though:<br>' ); 
+		break;
+	case 8:
+		Update( el, '09:01 � You�ve been surprisingly competent at<br> ' ); 
+		break;
+	case 9:
+		Update( el, '09:01 � generating electro-chemical energy to jumpstart the system.<br>' ); 
+		break;
+	case 10:
+		Update( el, '09:01 � But now we need raw computational power<br>' ); 
+		break;
+	case 11:
+		Update( el, '09:02 � to speed up the reboot process.<br>' ); 
+		break;
+	}
+
+	if ( g_frame < 20 )
+		window.setTimeout( Frame, 1000 );
+	else 
+		window.location = 'http://www.aperturescience.com/glados@home/';
+		
+}
+
+function Update( el, text )
+{
+	el.innerHTML += text;
+}
+
+Frame();
+</script>
+</body>
