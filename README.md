@@ -12,6 +12,7 @@ Best of luck :)
 Intructions:
 1. Download the project and extract
 2. Run the "index.html" file on a browser of your choice.
+3. (Optional) To remove the counting sequence rename index.html to something else (or delete it) and rename home.html to index.html
 
 Notes:
 If you don't want the terminal to close and try to open youtube or Valve's website go to the "Frame1.as.js" file and comment out lines 374 and 379 or simply delete them. The file is in "ApertureScience17.2.swf/". If you do this the terminal will simply restart.
